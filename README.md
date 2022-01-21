@@ -1,5 +1,5 @@
 # FastLine
-Python module for geometric Line operations implmented in C++, and it is optimized for speed. I created this module to use in a project where I needed to do many of such calculations.
+Python module for geometric Line operations implmented in C++ then binded to python, and it is optimized for speed. I created this module to use in a project where I needed to do many of such calculations.
 # installation
 
 ```bash
@@ -69,5 +69,3 @@ https://stackoverflow.com/a/20679579/10220190
 `Author:`M.Ali Zarrinzadeh
 
 `Email:`ali.zarrinzadeh@gmail.com
-
-
