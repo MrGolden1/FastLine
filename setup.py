@@ -8,10 +8,6 @@ src_dir = 'src'
 ext_modules = [Extension('FastLine',
                          [src_dir + '/FastLine.cpp'],
                          language='c++',
-                         depends=[src_dir + '/Line.h'],
-                        #  #  lib dirj
-                        #  library_dirs=[
-                        #      'C:/Users/aliza/AppData/Local/Programs/Python/Python37/libs/'],
                          ), ]
 
 setup(name='FastLine',
@@ -20,12 +16,16 @@ setup(name='FastLine',
       author='M.Ali Zarrinzade',
       author_email="ali.zarrinzadeh@gmail.com",
       description="FastLine",
-      long_description="FastLine is module that provides line operations implemented in C++",
+      long_description="FastLine is a module that provides line operations implemented in C++",
       license="MIT",
       classifiers=[
-            'Development Status :: 5 - Production/Stable',
-            'Intended Audience :: Developers',
-            'Intended Audience :: Science/Research',
-            'Programming Language :: Python :: 3',
-      ]
+          'Development Status :: 5 - Production/Stable',
+          'Intended Audience :: Developers',
+          'Intended Audience :: Science/Research',
+          'Programming Language :: Python :: 3',
+      ],
+      url="https://github.com/MrGolden1/FastLine",
+      project_urls={
+          "Bug Tracker": "https://github.com/MrGolden1/FastLine/issues",
+      },
       )
