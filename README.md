@@ -59,7 +59,9 @@ l2 = Line(m=4, b=-1)
 
 ### Thanks to:
 https://stackoverflow.com/a/3838398/10220190
+
 https://stackoverflow.com/a/39840218/10220190
+
 https://stackoverflow.com/a/20679579/10220190
 
 
